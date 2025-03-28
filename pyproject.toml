@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=6.29.5",
+    "pip>=25.0.1",
+    "tensorflow-datasets>=4.9.3",
+    "tensorflow-recommenders>=0.3.0",
+]
 
 [dependency-groups]
 dev = [
